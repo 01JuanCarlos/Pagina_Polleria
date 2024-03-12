@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&display=swap');
 .container{
     overflow: hidden;
     margin: 20px;
     height: 550px;
     background-image: url(assets/Fondo.png);
-    
+    border-radius: 30px;
+    position: relative;
 }
 .menu-bar{
     display: flex;
@@ -16,6 +19,8 @@ align-items: center;
 height: 100%;
 }
 .container header{
+    z-index: 2;
+    position: relative;
     max-width: 1100px;
     display: flex;
     justify-content:space-between;
@@ -24,7 +29,7 @@ height: 100%;
     height: 20%;
 }
 .container header .logo{
-    font-size: 36px;
+    font-family: 'M PLUS Rounded 1c';
     color: #ffffff;
     text-decoration: none;
 }
@@ -42,20 +47,30 @@ display: inline-block;
     padding:3px;
     transition: .5s;
     text-decoration: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
 }
 .container nav ul li a:hover {
-    background-color: #555; /* Cambia el color de fondo al pasar el ratón sobre el enlace */
-  }
+    color: white;
+    text-shadow: 1px 0px 9px rgb(0, 0, 0);  }
 
 .informacion{
     gap: 3px;
     width: 50%;
+    position: relative;
+    z-index: 1;
 }
 .informacion p{
-color: #D3BF0B;
-font-size: 94px;
-
-
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 94px;
+}
+.informacion p span{
+    font-family: 'M PLUS Rounded 1c';
+    font-weight: 800;
+    color: #D3BF0B;
+    font-size: 94px;
 }
 .informacion span{
     color: white;
@@ -64,8 +79,8 @@ font-size: 94px;
     
     width: 872.47px;
     position: relative;
-    top: -285px;
-    right: -726px;
+    top: -300px;
+    right: -722px;
     border-radius: 100%;
     height: 872.47px;
     transform: rotate(92deg);
@@ -99,4 +114,31 @@ width: 95%;
 }
 .im1 img:hover{
     width: 100%;
+}
+.sombra{
+    z-index: 0;
+    right: 547px;
+    top: -228px;
+    position: absolute;
+    width: 68%;
+    height: 137%;
+    background: #51404087;
+    border-radius: 52%;
+}
+#imL{
+    left: -3px;
+    width: 41%;
+    top: -29px;
+    position: absolute;
+    filter: blur(3px);
+    transition: 1s;}
+.linea{
+    border-radius: 24px;
+    left: 0px;
+    position: relative;
+    background: #ffffff8f;
+    width: 144px;
+    height: 4px;
+    top: 20px;
+    transition: 400ms;
 }
