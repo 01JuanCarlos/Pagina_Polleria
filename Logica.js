@@ -22,7 +22,7 @@ $(document).ready(function(){
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im2")
         imL.attr("src", "./assets/chaufa_L.png").fadeIn(1000);
-        linea.css("left","159px");
+        linea.css("left","148px");
     });
 
     img3.click(function(){
@@ -30,6 +30,33 @@ $(document).ready(function(){
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im3")
         imL.attr("src", "./assets/pepino_L (1).png").fadeIn(1000);
-        linea.css("left","328px");
+        linea.css("left","304px");
     });
+
+    //EVENTO DEL MOVIMIENTO DEL CURSOR
+    /*$('.cart').on('mousemove', function(e) {
+    
+        var x = e.clientX - $(this).offset().left;
+        var y = e.clientY - $(this).offset().top;
+  
+        var centerX = $(this).width() / 2;
+        var centerY = $(this).height() / 2;
+  
+        var deltaX = x - centerX;
+        var deltaY = y - centerY;
+  
+        var percentX = deltaX / ($(this).width() / 2);
+        var percentY = deltaY / ($(this).height() / 2);
+  
+        $(this).css('transform', 'rotateX(' + (-percentY * 5) + 'deg) rotateY(' + (percentX * 5) + 'deg)');
+
+
+      });
+  
+      $('.cart').on('mouseleave', function() {
+        console.log('SALIOOOOO');
+        $(this).css('transform', 'rotateX(0deg) rotateY(0deg)');
+      });*/
+
+
 });
