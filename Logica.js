@@ -1,4 +1,9 @@
 $(document).ready(function(){
+       //libreria para animacion
+       AOS.init({
+        duration:1500
+    });
+    //---------
     var slider = $("#slider");
     var img1 = $("#img1");
     var img2 = $("#img2");
