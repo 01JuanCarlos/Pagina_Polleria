@@ -39,7 +39,7 @@ $(document).ready(function(){
     });
 
     //EVENTO DEL MOVIMIENTO DEL CURSOR
-    /*$('.cart').on('mousemove', function(e) {
+ /*   $('#banner').on('mousemove', function(e) {
     
         var x = e.clientX - $(this).offset().left;
         var y = e.clientY - $(this).offset().top;
@@ -53,7 +53,7 @@ $(document).ready(function(){
         var percentX = deltaX / ($(this).width() / 2);
         var percentY = deltaY / ($(this).height() / 2);
   
-        $(this).css('transform', 'rotateX(' + (-percentY * 5) + 'deg) rotateY(' + (percentX * 5) + 'deg)');
+        $(this).css('transform', 'rotateX(' + (-percentY * 2) + 'deg) rotateY(' + (percentX * 2) + 'deg)');
 
 
       });
@@ -61,7 +61,7 @@ $(document).ready(function(){
       $('.cart').on('mouseleave', function() {
         console.log('SALIOOOOO');
         $(this).css('transform', 'rotateX(0deg) rotateY(0deg)');
-      });*/
-
+      });
+*/
 
 });
