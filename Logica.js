@@ -4,7 +4,7 @@ $(document).ready(function(){
         duration:1500
     });
     //---------
-    var slider = $("#slider");
+    var slider = $(".slider");
     var img1 = $("#img1");
     var img2 = $("#img2");
     var img3 = $("#img3");
@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     // eventos de clic a las imágenes
     img1.click(function(){
-        angle = 92; // Cambiar el ángulo a  92 grados
+        angle = 13; // Cambiar el ángulo a  92 grados
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im1")
         imL.attr("src", "./assets/mostrito_L.png").fadeIn(1000);
@@ -23,19 +23,20 @@ $(document).ready(function(){
     });
 
     img2.click(function(){
-        angle = 206; 
+        angle = 142; 
+        
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im2")
         imL.attr("src", "./assets/chaufa_L.png").fadeIn(1000);
-        linea.css("left","148px");
+        linea.css("left","33%");
     });
 
     img3.click(function(){
-        angle = 326; 
+        angle = 255; 
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im3")
         imL.attr("src", "./assets/pepino_L (1).png").fadeIn(1000);
-        linea.css("left","304px");
+        linea.css("left","67%");
     });
 
     //EVENTO DEL MOVIMIENTO DEL CURSOR

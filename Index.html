@@ -14,47 +14,71 @@
 
 </head>
 <body>
-   
-    <div class="container" >
+    <div class="container cnt" >
        <section  id="banner" >
-        <img id="imL" src="./assets/mostrito_L.png" alt="">
-            <div class="sombra"></div>
-            <!--Menu-bar -->
-            <header>
-                <div class="logo"> <h3 class="col-md-4">Chicken</h3></div>
-                <nav class="menu-bar">
-                    <ul class="">
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Nosotros</a></li>
-                        <li><a href="">Servicios</a></li>
-                        <li><a href="">Contactanos</a></li>
+        <img id="imL" class="" src="./assets/mostrito_L.png" alt="">
+               <!-- <div class="sombra"></div> -->
+            <div class="container text-center">
+              <!--Menu-bar -->
+              <nav class="navbar navbar-expand-lg my-4">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">Chicken</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contactanos</a>
+                      </li>
                     </ul>
-                </nav>
-            </header>
-            
-            <!--Seccion lateral -->
-            <div class="informacion col-6 row">      
-                <p>CHI<span>CKEN</span></p>
-                <span>Ya sea que pidas Delivery o nos visites con amigos o familiares, ten por seguro que disfrutaras de nuestro deliciosa saZón. Gracias por preferirnos.!</span>
-                <div class="control-slider">
-                    <div class="im1"><img id="img1" src="assets/1 (1).png" alt=""></div>
-                    <div class="im1"><img  id="img2" src="assets/3 (1).png" alt=""></div>
-                    <div class="im1"><img  id="img3" src="assets/2 (1).png" alt=""></div>
+                  </div>
                 </div>
-                <div><div class="linea"></div> </div>
+              </nav>
+            <div class="row my-5  ">
+                        <!--Seccion lateral de informacion-->
+                        <div class="informacion  col-xl-6 col-lg-12">      
+                            <div class="row my-3">
+                                <img class="col-10" src="assets/LOGO.png" alt="">
+                            </div>
+                            <div class="row my-3">
+                                <span>Ya sea que pidas Delivery o nos visites con amigos o familiares, ten por seguro que disfrutaras de nuestro deliciosa saZón. Gracias por preferirnos.!</span>
+                            </div>
+                           <div class="cont-control-slider mx-auto col-xl-12 col-lg-6">
+                            <div class="control-slider  ">
+                                <div class="im1"><img id="img1" src="assets/1 (1).png" alt=""></div>
+                                <div class="im1"><img  id="img2" src="assets/2 (1).png" alt=""></div>
+                                <div class="im1"><img  id="img3" src="assets/3 (1).png" alt=""></div>
+                            </div>
+                           </div>
+                            <div class="mx-auto col-xl-12 col-lg-6">
+                                <div class="linea col-4"></div>
+                            </div>
+                        </div>
+                        <!--Slider circular -->
+                        <div class="col-6 " >
+                            <img  class="slider" src="assets/Fondo-center (1).png" alt="">
+                        </div>
+                      
             </div>
-            <!--Slider circular -->
-            <div class="slider" id="slider">
-                <img  src="assets/slider_2.png" alt="">
-            </div>
-       
+          </div>
        </section>
+      
        <section class="articulo" id="article1" data-aos="fade-left">
-        <h1>Promos delivery</h1>
+        <h1 class="col-12 text-center">Promos delivery</h1>
         <div class="sec-1">
-            <div class="sec-body">
-                <div class="col-6 row">
-                    <div class="col-4 promo">
+            <div class="sec-body row  ">
+                <div class=" col-xl-6 col-lg-12 row">
+                    <div class="col-xl-4 col-lg-3 promo">
                         <img class="img-art" src="assets/1 (1).png" alt="">
                         <div class="cont-descr">
                             <div class="text">
@@ -63,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 promo">
+                    <div class="col-xl-4 col-lg-3 promo">
                         <img class="img-art" src="assets/2 (1).png" alt="">
                         <div class="cont-descr">
                            <div class="text">
@@ -72,7 +96,7 @@
                            </div>
                         </div>
                     </div>
-                    <div class="col-4 promo">
+                    <div class="col-xl-4 col-lg-3 promo">
                         <img class="img-art" src="assets/3 (1).png" alt="">
                         <div class="cont-descr">
                             <div class="text">
@@ -82,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3 cart " >
+                <div class="col-xl-3 col-lg-5 cart " >
                     <h2>Banque CHICKEN</h2>
                     <p>¡PERFECTO PARA COMPARTIR EN FAMILIA!</p>
                     <p> 1 POLLO + PAPAS + CHAUFA* + ENSALADA
@@ -102,7 +126,7 @@
             <p>A diferencia del resto, en Chicken todos los insumos son del día </p>
         <div class="sec-1 row">
             <div class="col-6 cont1 ">
-                <div class="prod">
+                <div class="prod ">
                     <div class="prod-ds">
                         <h2>Autentico Pollo a las Brasas</h2>
                         <p>Pollo entero + abundantes y crocantes papas fritas + ensalada mixta + cremas</p>
@@ -137,16 +161,20 @@
             </div>
         </div>
        </section>
+
+
+      </div>
+       
     </div>
-    <footer>
-        <ul class="">
+    <footer class="row g-0 align-items-end p-4">
+        <ul class="col-auto me-auto">
             <li>Conócenos</li>
             <li>Llámanos</li>
             <li>Información</li>
             <li>Términos y Condiciones de Uso</li>
             <li>Política de Privacidad</li>
         </ul>
-        <div class="iconos">
+        <div class="iconos col-auto ">
             <a href=""><img src="assets/icon-facebook.png" alt=""></a>
             <a href=""><img src="assets/icon-whatsapp.png" alt=""></a>
             <a href=""><img src="assets/icon-instagran.png" alt=""></a>
