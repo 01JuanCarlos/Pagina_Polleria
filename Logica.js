@@ -24,10 +24,9 @@ $(document).ready(function(){
 
     img2.click(function(){
         angle = 142; 
-        
+        imL.attr("src", "./assets/pepino_L (1).png").fadeIn(1000);
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im2")
-        imL.attr("src", "./assets/chaufa_L.png").fadeIn(1000);
         linea.css("left","33%");
     });
 
@@ -35,7 +34,7 @@ $(document).ready(function(){
         angle = 255; 
         slider.css('transform', 'rotate(' + angle + 'deg)');
         console.log("im3")
-        imL.attr("src", "./assets/pepino_L (1).png").fadeIn(1000);
+        imL.attr("src", "./assets/chaufa_L.png").fadeIn(1000);
         linea.css("left","67%");
     });
 
