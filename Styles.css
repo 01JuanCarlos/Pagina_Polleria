@@ -256,6 +256,7 @@ z-index: 1;
     color: #000000;
     /*height: 291px;*/
     transition: all 200ms ease; 
+    display: flex;
  }
 .promo:hover{
     top: -5px;
@@ -303,6 +304,7 @@ z-index: 1;
     justify-content: center;*/
 }
 .cart{
+    display: inline-table;
     height: 363px;
     position: relative;
     color: white;
@@ -345,6 +347,7 @@ z-index: 1;
 }
 
 /*---Articulo 2*/
+
 #article2 p{
 position:relative;
 color:white;
@@ -359,6 +362,7 @@ z-index: 1;
 .prod{
     display: flex;
     position: relative;
+    height: 47%;
 }
 
 .prod-ds{
@@ -457,7 +461,6 @@ footer ul {
     top: -4px;
 }
 .navbar-toggler-icon {
-    color: red; /* Cambia el color del ícono de hamburguesa a rojo */
 }
 
 @media (max-width:1200px){
@@ -465,8 +468,32 @@ footer ul {
     display: none;
 }
 
+#article2{
+    padding-inline: 157px;
 }
+.sec-body .row{
+    display: flex;
+    justify-content: center;
+    /*background: rebeccapurple;*/
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.sec-body {
+    gap: 0px;
+    align-items: center;
+}
+.promo{
+  /*  background: red;*/
+    height: 338px;
+}
+.sec1{
+    padding-inline: 10%;
+}
+}
+
 @media (max-width:992px){
+    
     #imL{
         width: 95%;
         top: 2px;
@@ -474,9 +501,16 @@ footer ul {
     #banner{
         padding-inline: 7px;
     }
+    #article2{
+        padding-inline: 0px;
+    }
+    .promo{
+       /* background: rgb(25, 0, 255);*/
+    }
 }
 
 @media (max-width:576px){
+  
 .prod-ds h2 {
     font-size: 14px;
 }
@@ -488,8 +522,23 @@ footer ul {
     display: flex;
 }
 .iconos{
+   /* background: red;*/
     display: flex;
     flex-direction: column;
 }
+#article2{
+    padding-inline: 0px;
+}
 
+}
+@media (max-width:373px){
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .iconos{
+     /*   background: rgb(9, 255, 0);*/
+        display: flex;
+        flex-direction: row;
+    }
 }
