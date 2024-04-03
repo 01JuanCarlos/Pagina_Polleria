@@ -658,6 +658,12 @@ footer ul {
       .cont-inf{
           margin: 0px; 
       }
+      .iconos{
+        gap: 8px;
+      }
+      .iconos a{
+        display: flex;
+      }
     /*  .container {
           padding-right:0 !important;
           padding-left:0 !important;
