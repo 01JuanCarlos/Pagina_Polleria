@@ -546,102 +546,7 @@ footer ul {
 }
 /*------------------------*/
 @media (max-width:320px){
-    .slider {
-      display: none;
-    }
-    .slider-small{
-        display: flex;
-        z-index: 0;
-        left: 50%;
-        position: absolute;
-        top: 5%;
-        width: 123%;
-        transform: rotate(0deg);
-        transition: 1s;
-    }
-    .cont-linea{
-        width: 74%;
-    }
-    .logo{
-        justify-content: flex-start;
-    }
-    .cont-control-slider {
-        width: 72%;
-    }
-    footer{
-        display: flex;
-        justify-content: center;
-    }
-    .iconos{
-     /*   background: rgb(9, 255, 0);*/
-        display: flex;
-        flex-direction: row;
-    }
-    .prod-ds h2{
-        width: 72%;
-    }
-    .articulo2{
-        margin: 0px;
-    }
-    .prod-ds p {
-        width: 68%;
-    }
-    .articulo1, .articulo2 h1{
-        margin: 0px;
-        padding: 0px;
-    }
-    .sec-body .cart{
-        transform:none;
-        width: 80%;
-    }
-    .cont-span{
-        justify-content: flex-start;
-        width: 88%;
-    }
-    .cont-span span{
-        font-size: 14px;
-        text-align: left;
-        box-shadow: inset 0 0 0 0 rgb(0 0 0 / 11%);
-    }
-    #banner{
-        margin: 0px;
-        background: none;
-    }
-    .sec-body {
-        gap: 11px;
-    }
-    .cont-descr {
-        height: 78%;
-    }
-    .cont-descr .text p {
-        margin-top: 51px;
-    }
-    .promo{
-        height: 193px;
-    }
-    .articulo2::before {
-        display: none;
-    }
-    .articulo1::before {
-        display: none;
-    }
-    .cnt{
-        display: flex;
-        gap: 20px;
-        flex-direction: column;
-        margin-bottom: 40px;
-
-    }
-    .nv{
-        margin: 0px;
-    }
-    .cont-inf{
-        margin: 0px; 
-    }
-    .container {
-        padding-right:0 !important;
-        padding-left:0 !important;
-    }
+  
 }
 
 @media (max-width:375px){
@@ -655,16 +560,107 @@ footer ul {
 }
 
 @media (max-width:425px){
-    .sec-body .row{
-        flex-direction: row;
-        flex-wrap: wrap;
-     }
-     .promo{
-        width: 70%;
-      /*  background: rebeccapurple;*/
-     }
-    .cont-descr .text p{
-        font-size: 10px;
-
-     }
+ 
+    .slider {
+        display: none;
+      }
+      .slider-small{
+          display: flex;
+          z-index: 0;
+          left: 50%;
+          position: absolute;
+          top: 5%;
+          width: 123%;
+          transform: rotate(0deg);
+          transition: 1s;
+      }
+      .cont-linea{
+          width: 74%;
+      }
+      .logo{
+          justify-content: flex-start;
+      }
+      .cont-control-slider {
+          width: 72%;
+          margin: 0 !important;
+      }
+      footer{
+          display: flex;
+          justify-content: center;
+      }
+      .iconos{
+       /*   background: rgb(9, 255, 0);*/
+          display: flex;
+          flex-direction: row;
+      }
+      .prod-ds h2{
+          width: 72%;
+      }
+      .articulo2{
+          margin: 0px;
+      }
+      .prod-ds p {
+          width: 68%;
+      }
+      .articulo1, .articulo2 h1{
+          margin: 0px;
+          padding: 0px;
+      }
+      .sec-body .cart{
+          transform:none;
+          width: 80%;
+      }
+      .cont-span{
+          justify-content: flex-start;
+          width: 88%;
+      }
+      .cont-span span{
+          font-size: 14px;
+          text-align: left;
+          box-shadow: inset 0 0 0 0 rgb(0 0 0 / 11%);
+      }
+      #banner{
+          margin: 0px;
+          background: none;
+          border-radius: 0px;
+      }
+      .sec-body {
+          gap: 52px;
+      }
+      .cont-descr {
+          height: 78%;
+      }
+      .cont-descr .text p {
+          margin-top: 51px;
+      }
+      .promo{
+          height: 193px;
+      }
+      .articulo2::before {
+          display: none;
+      }
+      .articulo1::before {
+          display: none;
+      }
+      .cnt{
+          display: flex;
+          gap: 20px;
+          flex-direction: column;
+          margin-bottom: 40px;
+  
+      }
+      .informacion{
+        width: 82%;
+      }
+      .nv{
+          margin: 0px;
+      }
+      .cont-inf{
+          margin: 0px; 
+      }
+    /*  .container {
+          padding-right:0 !important;
+          padding-left:0 !important;
+      }*/
+     
 }
