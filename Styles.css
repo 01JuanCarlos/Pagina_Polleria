@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantora+One&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&family=Shrikhand&family=Sigmar+One&display=swap');
 
 html{
-    
+
 }
 body{
     /*background: radial-gradient(#fff8f8, #bb7221);*/
@@ -16,7 +16,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
+height: 100%;
 }
 #banner{
     padding-inline: 70px;
