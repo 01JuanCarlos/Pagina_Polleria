@@ -652,6 +652,9 @@ footer ul {
       .articulo1::before {
           display: none;
       }
+      .articulo1, .articulo2{
+        background: #ffffff13;
+      }
       .cnt{
           display: flex;
           gap: 20px;
