@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantora+One&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Sigmar+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cantora+One&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ropa+Sans:ital@0;1&family=Shrikhand&family=Sigmar+One&display=swap');
 
+html{
+    
+}
 body{
     /*background: radial-gradient(#fff8f8, #bb7221);*/
    /* background: radial-gradient(#fff8f8, #90673a);*/
@@ -13,6 +16,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+
 }
 #banner{
     padding-inline: 70px;
@@ -646,7 +650,6 @@ footer ul {
           display: flex;
           gap: 20px;
           flex-direction: column;
-          margin-bottom: 40px;
   
       }
       .informacion{
@@ -664,7 +667,7 @@ footer ul {
       .iconos a{
         display: flex;
       }
-    /*  .container {
+     /*.container {
           padding-right:0 !important;
           padding-left:0 !important;
       }*/
