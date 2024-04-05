@@ -447,13 +447,17 @@ footer ul {
 }
 
 /*-------------------------*/
-@media (max-width:1200px){
-    .slider{
-        display: none;
-    }
-
+@media (max-width:1024px){
+  
     #article2{
         padding-inline: 44px;
+    }
+    .articulo2 .sec-1{
+        display: flex;
+        margin-inline: auto;
+        height: 76%;
+        overflow: auto;
+        justify-content: center;
     }
 
  /*   .sec-body-s{
@@ -478,48 +482,25 @@ footer ul {
 }
 /*------------------------*/
 @media (max-width:768px){
-    .sec-body-s{
+
+    .slider {
+        display: none;
+      }
+      .slider-small{
         display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-      /*  background: green;*/
-    }
-    .logo,.cont-span{
-        justify-content: center;
-
-    }
-    .cont-span span{
-        padding: 20px;
-      /*  background: #00000038;*/
-        width: 79%;
-        font-size: 17px;
-        text-align: center;
-        border-radius: 20px;
-        box-shadow: inset 1px -1px 12px 13px rgb(0 0 0 / 11%);
-    }
-    #imL{
-        width: 62%;
-        top: 2px;
-    }  
-    #banner{
-        padding-inline: 7px;
-    }
-    #article2{
-        padding-inline: 0px;
-    }
-    .promo{
-       /* background: rgb(25, 0, 255);*/
-    }
-    .cont-descr .text p{
-        font-size: 17px;
-
-    }
-    .sec-body .row{
-     /*  background: red;*/
-       flex-wrap: nowrap;
-       justify-content: center;
-    }
+        z-index: 0;
+        left: 56%;
+        position: absolute;
+        top: -25%;
+        width: 108%;
+        transform: rotate(0deg);
+        transition: 1s;
+      }
 }
+@media (max-width:320px){
+  
+}
+
 /*----------------------*/
 @media (max-width:576px){
   
@@ -553,44 +534,32 @@ footer ul {
      }
 }
 /*------------------------*/
-@media (max-width:320px){
-  
-}
 
-@media (max-width:375px){
-    .articulo1 {
-        padding: 11px;
-    }
-    .sec-body .cart{
-        transform:none;
-        width: 80%;
-    }
-}
 
 @media (max-width:425px){
  
-    .slider {
+     .slider {
         display: none;
       }
       .slider-small{
           display: flex;
           z-index: 0;
-          left: 50%;
+          left: 54%;
           position: absolute;
-          top: 5%;
-          width: 123%;
-          transform: rotate(0deg);
+          top: 3%;
+          width: 114%;
+          transform: rotate(10deg);
           transition: 1s;
       }
       .cont-linea{
-          width: 74%;
+        width: 57%;    
       }
       .logo{
           justify-content: flex-start;
       }
       .cont-control-slider {
-          width: 72%;
-          margin: 0 !important;
+        width: 57%;
+        margin: 0 !important;
       }
       footer{
           display: flex;
@@ -633,6 +602,7 @@ footer ul {
           margin: 0px;
           background: none;
           border-radius: 0px;
+          padding: 0%;
       }
       .sec-body {
           gap: 52px;
